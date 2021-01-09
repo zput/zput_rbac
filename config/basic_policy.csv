@@ -1,0 +1,14 @@
+p,admin,*,*,*,*
+p,head_teacher_ai_scheduling_manager,AI,AI_COURSE_SCHEDULING,*,*
+p,head_teacher_ai_project_evaluation,AI,AI_HOMEWORK,self,LIST
+p,head_teacher_ai_scheduling,AI,AI_COURSE_SCHEDULING,self,LIST
+p,test,*,*,*,*
+g,role::head_teacher,head_teacher_ai_project_evaluation
+g,role::admin,admin
+g,role::head_teacher,head_teacher_ai_scheduling
+g,user::10246,role::admin
+g,user::10095,role::admin
+g,user::10066,role::admin
+g,user::10054,role::admin
+g,user::10118,role::admin
+g,role::运营,head_teacher_ai_scheduling
